@@ -27,9 +27,9 @@ export default class MessageArea extends Component {
                                 <p>{name ? name + ': ' + text : text}</p>
                                 { (props.conf.displayMessageTime) ?
                                     <div>
-                                        <a class="info" href="https://github.com/simpleanalytics/chat" target="_blank">
+                                        <span class="info">
                                             via Telegram
-                                        </a>
+                                        </span>
                                         <div class="time">
                                             {
                                                 currentTime - new Date(time) < dayInMillis ?

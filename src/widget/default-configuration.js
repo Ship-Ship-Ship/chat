@@ -8,7 +8,7 @@ export const defaultConfiguration = {
   introMessageBalloon: "Hello! How can we help?",
   closedChatAvatarUrl:
     "https://cdn.simpleanalytics.io/images/adriaan-small.jpg",
-  autoResponse: "Looking for Adriaan or Şamil (this might take a minute)",
+  autoResponse: "Looking for Serge (this might take a minute)",
   autoNoResponse:
     "They don't seem to answer within 60 seconds. This chat is anonymous so please leave your email address so they can " +
     "contact you.",

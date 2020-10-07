@@ -24,7 +24,7 @@ app.post(`/hook/${process.env.TELEGRAM_TOKEN}`, function(req, res) {
 
     console.log(JSON.stringify(req.body))
 
-    if (/adriaan/gi.test(name)) name = 'Adriaan'
+    if (/serge/gi.test(name)) name = 'Serge'
 
     if (text.startsWith('/start')) {
       // console.log('/start chatId ' + chatId);
